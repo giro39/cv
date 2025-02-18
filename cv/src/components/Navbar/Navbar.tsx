@@ -6,7 +6,7 @@ const Navbar = () => {
     const { t } = useTranslation();
 
     return (
-        <nav className={styles.navbar} aria-label="Main Navigation">
+        <nav className={styles.navbar} aria-label="Navigation">
             <ul className={styles.navElements}>
                 <div className={styles.links}>
                     <li>

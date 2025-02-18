@@ -1,0 +1,33 @@
+@use "../../vars" as *;
+
+.main {
+    // margin-top: 10rem;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    width: 20rem;
+    height: 20rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.name {
+    font-size: 7rem;
+}
+
+.whoami {
+    font-size: 2.6rem;
+    color: $text-2;
+}
