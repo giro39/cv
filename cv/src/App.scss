@@ -1,0 +1,6 @@
+@use "./vars" as *;
+
+body {
+    background-color: $background;
+    color: $text-1;
+}

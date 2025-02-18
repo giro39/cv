@@ -1,12 +1,12 @@
 :root {
-    [theme="light"] {
+    &[theme="light"] {
         --background: #f4f4f4;
         --text-1: #252525;
         --text-2: #747474;
         --header: #000000;
         --accent: #ff6b6b;
     }
-    [theme="dark"] {
+    &[theme="dark"] {
         --background: #181818;
         --text-1: #dadada;
         --text-2: #7d7d7d;
