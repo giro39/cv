@@ -1,0 +1,50 @@
+@use "../../vars" as *;
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%; // todo: bigger on smaller devices
+    padding: 0;
+    z-index: 10;
+    border-radius: 20rem;
+}
+
+.navElements {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px $text-3;
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 2rem;
+    border-radius: 20rem;
+}
+
+.navElements .links {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navElements li {
+    list-style: none;
+}
+
+.navElements a {
+    color: $text-2;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: $text-1;
+}

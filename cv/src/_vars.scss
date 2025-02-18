@@ -1,22 +1,13 @@
 :root {
-    &[theme="light"] {
-        --background: #f4f4f4;
-        --text-1: #252525;
-        --text-2: #747474;
-        --header: #000000;
-        --accent: #ff6b6b;
-    }
-    &[theme="dark"] {
-        --background: #181818;
-        --text-1: #dadada;
-        --text-2: #7d7d7d;
-        --header: #fff;
-        --accent: #e85d5d;
-    }
+    --background: #010103;
+    --text-1: #fff;
+    --text-2: #c0c1c1;
+    --text-3: #949ba6;
+    --accent: #e85d5d;
 }
 
 $background: var(--background);
 $text-1: var(--text-1);
 $text-2: var(--text-2);
-$header: var(--header);
+$text-3: var(--text-3);
 $accent: var(--accent);
