@@ -1,4 +1,9 @@
 import { useEffect, useState } from "react";
+
+import Navbar from "./components/Navbar/Navbar";
+
+import "./i18n/config.js";
+
 import "./App.scss";
 
 function App() {
@@ -15,6 +20,7 @@ function App() {
 
     return (
         <main>
+            <Navbar />
             <div>Initial commit</div>
             <button onClick={toggleTheme}>Zmień motyw</button>
         </main>
