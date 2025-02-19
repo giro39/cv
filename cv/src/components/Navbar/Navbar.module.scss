@@ -20,9 +20,11 @@
     align-items: center;
     justify-content: space-between;
     border: solid 1px $text-3;
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     padding: 1rem 2.5rem;
     border-radius: 20rem;
+    box-shadow: 2px 2px 6px $background;
 }
 
 .navElements .links {
@@ -47,4 +49,5 @@
 
 .links a:hover {
     color: $text-1;
+    text-shadow: 2px 2px 12px black;
 }
