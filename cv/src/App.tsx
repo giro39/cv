@@ -10,6 +10,7 @@ function App() {
         <main>
             <Navbar />
             <Home />
+            <hr />
             <div>Something</div>
             <div>Something</div>
             <div>Something</div>

@@ -25,9 +25,23 @@ body {
         $background;
     background-blend-mode: screen;
     min-height: 100vh;
+    padding: 0 8rem;
     overflow-x: hidden;
     color: $text-1;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+hr {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 80rem) {
+    body {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 48rem) {
 }

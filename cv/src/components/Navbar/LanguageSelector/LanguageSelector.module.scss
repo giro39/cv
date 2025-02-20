@@ -10,6 +10,25 @@
     padding: 0;
 }
 
-img {
+.btnLang img {
     text-shadow: 2px 2px 12px black;
+    width: 2em;
+}
+
+@media only screen and (max-width: 80rem) {
+    .btnLang img {
+        width: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 60rem) {
+    .btnLang img {
+        width: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 48rem) {
+    .btnLang img {
+        width: 2.2em;
+    }
 }
