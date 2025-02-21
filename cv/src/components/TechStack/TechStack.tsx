@@ -49,10 +49,15 @@ const TechStack = () => {
                     </button>
                 ))}
             </div>
-
-            {filteredData.map((tech: TechnologyType) => (
-                <Technology key={tech.name} logo={tech.icon} name={tech.name} />
-            ))}
+            <div className={styles.technologies}>
+                {filteredData.map((tech: TechnologyType) => (
+                    <Technology
+                        key={tech.name}
+                        logo={tech.icon}
+                        name={tech.name}
+                    />
+                ))}
+            </div>
         </section>
     );
 };
