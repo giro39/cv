@@ -18,6 +18,8 @@ i18n.use(initReactI18next).init({
                 current_profession: "3rd year computer science student",
                 profession:
                     "Full-stack Developer, DevOps & Networking enthusiast",
+                my_tech_stack: "My Tech Stack",
+                all: "All",
             },
         },
         pl: {
@@ -29,6 +31,8 @@ i18n.use(initReactI18next).init({
                 about: "O mnie",
                 current_profession: "Student 3. roku informatyki",
                 profession: "Programista full-stack uczący się DevOps i sieci",
+                my_tech_stack: "Technologie, z których korzystam",
+                all: "Wszystkie",
             },
         },
     },

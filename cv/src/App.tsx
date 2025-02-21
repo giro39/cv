@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
+import TechStack from "./components/TechStack/TechStack";
 
 import "./i18n/config.js";
 
@@ -11,6 +12,7 @@ function App() {
             <Navbar />
             <Home />
             <hr />
+            <TechStack />
             <div>Something</div>
             <div>Something</div>
             <div>Something</div>

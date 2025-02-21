@@ -1,0 +1,47 @@
+@use "../../vars" as *;
+
+.stackTitle {
+    padding-bottom: 1rem;
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    button {
+        padding: 0.5rem 1rem;
+        border: none;
+        background-color: rgba(2, 48, 99, 0.4);
+        color: #fff;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        border-radius: 20rem;
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+            box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+.filters .active {
+    background-color: rgba(2, 48, 99, 1);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.8);
+    transition: background-color 0.2s;
+}
+
+.stack {
+    display: flex;
+    // max-width: 80%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 80rem) {
+}
+
+@media only screen and (max-width: 60rem) {
+}
+
+@media only screen and (max-width: 48rem) {
+}
