@@ -1,0 +1,44 @@
+.experience {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.title {
+    padding-bottom: 1rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20rem;
+}
+
+.tabs button {
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s;
+    border-radius: 20rem;
+}
+
+.tabs .active {
+    transition: 0.2s;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exerienceList {
+    display: flex;
+    flex-direction: column;
+}

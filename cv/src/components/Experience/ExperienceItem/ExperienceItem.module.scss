@@ -1,0 +1,32 @@
+@use "../../../vars" as *;
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.logo {
+    width: 3rem;
+    // height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: $text-3;
+}
+
+.position {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: $text-2;
+}
+
+.description {
+    color: $text-2;
+}

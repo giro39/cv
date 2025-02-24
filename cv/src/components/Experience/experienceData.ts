@@ -7,7 +7,7 @@ export const experienceData = {
                 position: "Frontend Web Developer",
                 description:
                     "Web Design; Web Development; Wordpress + Elementor.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
             {
                 date: "Jan 2020 - Mar 2020",
@@ -15,7 +15,7 @@ export const experienceData = {
                 position: "Software Developer - Internship",
                 description:
                     "Mobile Development; Web Development; Functional testing.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
         ],
         pl: [
@@ -25,7 +25,7 @@ export const experienceData = {
                 position: "Frontend Web Developer",
                 description:
                     "Projektowanie stron; Tworzenie stron; Wordpress + Elementor.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
             {
                 date: "Styczeń 2020 - Marzec 2020",
@@ -33,7 +33,7 @@ export const experienceData = {
                 position: "Software Developer - Staż",
                 description:
                     "Tworzenie aplikacji mobilnych i webowych; Testowanie oprogramowania.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
         ],
     },
@@ -45,7 +45,7 @@ export const experienceData = {
                 position: "Bachelor's Degree in Computer Science",
                 description:
                     "Focused on software development, databases, and web technologies.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
         ],
         pl: [
@@ -55,7 +55,7 @@ export const experienceData = {
                 position: "Licencjat z Informatyki",
                 description:
                     "Specjalizacja: programowanie, bazy danych, technologie webowe.",
-                logo: "/logos/university.png",
+                logo: "logo_react.svg",
             },
         ],
     },

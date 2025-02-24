@@ -17,7 +17,6 @@ const ExperienceItem: React.FC<ExperienceProps> = ({
 }) => {
     return (
         <div className={styles.itemContainer}>
-            <div className={styles.timeline}></div>
             <img src={logo} alt={`${title} logo`} className={styles.logo}></img>
             <div className={styles.details}>
                 <span className={styles.date}>{date}</span>
