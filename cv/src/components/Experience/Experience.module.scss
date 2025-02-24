@@ -13,9 +13,9 @@
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     margin-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20rem;
 }
 
@@ -34,7 +34,7 @@
 .tabs .active {
     transition: 0.2s;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
