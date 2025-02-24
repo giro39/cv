@@ -23,6 +23,10 @@ i18n.use(initReactI18next).init({
                 Other: "Other",
                 Graphics: "Graphics",
                 Mobile: "Mobile",
+                tabs: {
+                    studies: "Education",
+                    work: "Work",
+                },
             },
         },
         pl: {
@@ -39,6 +43,10 @@ i18n.use(initReactI18next).init({
                 Other: "Inne",
                 Graphics: "Grafika komputerowa",
                 Mobile: "Aplikacje mobilne",
+                tabs: {
+                    studies: "Edukacja",
+                    work: "Praca",
+                },
             },
         },
     },

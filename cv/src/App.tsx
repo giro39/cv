@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import TechStack from "./components/TechStack/TechStack";
+import Experience from "./components/Experience/Experience.js";
 
 import "./i18n/config.js";
 
@@ -14,6 +15,7 @@ function App() {
             <hr />
             <TechStack />
             <hr />
+            <Experience />
             <div>Something</div>
             <div>Something</div>
             <div>Something</div>
