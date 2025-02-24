@@ -19,8 +19,21 @@ const TechStack = () => {
         null
     );
 
+    const categoryCounts = data.reduce<Record<string, number>>((acc, tech) => {
+        tech.categories.forEach((category) => {
+            acc[category] = (acc[category] || 0) + 1;
+        });
+        return acc;
+    }, {});
+
     const categories = Array.from(
         new Set(data.flatMap((tech) => tech.categories))
+    ).sort((a, b) =>
+        a === "Other"
+            ? 1
+            : b === "Other"
+            ? -1
+            : categoryCounts[b] - categoryCounts[a] || a.localeCompare(b)
     );
 
     const filteredData = selectedCategory
@@ -45,7 +58,7 @@ const TechStack = () => {
                         }
                         onClick={() => setSelectedCategory(categorie)}
                     >
-                        {categorie}
+                        {t(categorie)}
                     </button>
                 ))}
             </div>

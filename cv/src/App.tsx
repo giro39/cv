@@ -13,6 +13,7 @@ function App() {
             <Home />
             <hr />
             <TechStack />
+            <hr />
             <div>Something</div>
             <div>Something</div>
             <div>Something</div>

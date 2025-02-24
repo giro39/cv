@@ -45,6 +45,11 @@ export default [
         categories: ["Backend"],
     },
     {
+        name: "Git",
+        icon: "logo_react.svg",
+        categories: ["Other"],
+    },
+    {
         name: "Oracle Apex",
         icon: "logo_react.svg",
         categories: ["Frontend", "Backend"],
@@ -52,12 +57,22 @@ export default [
     {
         name: "Bash",
         icon: "logo_react.svg",
-        categories: ["Devops", "Other"],
+        categories: ["DevOps", "Other"],
     },
     {
         name: "Nginx",
         icon: "logo_react.svg",
-        categories: ["Devops"],
+        categories: ["DevOps"],
+    },
+    {
+        name: "React Native",
+        icon: "logo_react.svg",
+        categories: ["Mobile"],
+    },
+    {
+        name: "Tauri",
+        icon: "logo_react.svg",
+        categories: ["Other"],
     },
     {
         name: "GIMP",
