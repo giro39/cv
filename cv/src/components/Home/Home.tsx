@@ -11,7 +11,11 @@ const Home = () => {
     return (
         <main className={styles.main} aria-label="Home">
             <div className={styles.profile}>
-                <img className={styles.photo} src="foto_1.jpg" alt="My photo" />
+                <img
+                    className={styles.photo}
+                    src="personal_photos/2.jpg"
+                    alt="My photo"
+                />
                 <div className={styles.introduction}>
                     <h1 className={styles.name}>Jan Wysmoliński</h1>
                     <p className={styles.whoami}>{t("current_profession")}</p>

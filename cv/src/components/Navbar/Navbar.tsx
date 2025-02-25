@@ -8,7 +8,13 @@ const Navbar = () => {
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
+            const offset = 150;
+            const elementPosition =
+                element.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+                top: elementPosition - offset,
+                behavior: "smooth",
+            });
         }
     };
 
@@ -22,13 +28,13 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a onClick={() => scrollToSection("projects")}>
-                            {t("projects")}
+                        <a onClick={() => scrollToSection("experience")}>
+                            {t("experience")}
                         </a>
                     </li>
                     <li>
-                        <a onClick={() => scrollToSection("about")}>
-                            {t("about")}
+                        <a onClick={() => scrollToSection("projects")}>
+                            {t("projects")}
                         </a>
                     </li>
                 </div>

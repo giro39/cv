@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import TechStack from "./components/TechStack/TechStack";
-import Experience from "./components/Experience/Experience.js";
-import Projects from "./components/Projects/Projects.js";
+import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
 
 import "./i18n/config.js";
 
@@ -27,16 +28,10 @@ function App() {
             <section id="projects">
                 <Projects />
             </section>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
-            <div>Something</div>
+            <hr />
+            <section id="about">
+                <About />
+            </section>
         </main>
     );
 }

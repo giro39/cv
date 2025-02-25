@@ -1,0 +1,50 @@
+@use "../../vars" as *;
+
+.about {
+    // padding: 2rem;
+    // background-color: #f4f4f4;
+    // border-radius: 8px;
+    // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailContact {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem 1rem;
+    border-radius: 6rem;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $text-2;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+        svg {
+            margin-left: 0.5rem;
+            font-size: 1.3rem;
+            transition: transform 0.3s ease;
+        }
+
+        &:hover {
+            color: $text-1;
+        }
+    }
+}

@@ -27,6 +27,10 @@ i18n.use(initReactI18next).init({
                     studies: "Education",
                     work: "Work",
                 },
+                about_comp: {
+                    title: "Feel free to reach out for any questions or opportunities.",
+                    contact: "My e-mail address",
+                },
             },
         },
         pl: {
@@ -46,6 +50,10 @@ i18n.use(initReactI18next).init({
                 tabs: {
                     studies: "Edukacja",
                     work: "Praca",
+                },
+                about_comp: {
+                    title: "Zapraszam do kontaktu w sprawie współpracy lub zapytań.",
+                    contact: "Mój adres e-mail",
                 },
             },
         },
