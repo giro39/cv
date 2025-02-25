@@ -1,3 +1,5 @@
+@use "../../../vars" as *;
+
 .project {
     display: flex;
     justify-content: space-between;
@@ -34,6 +36,7 @@
 
 .description {
     padding-bottom: 1rem;
+    color: $text-2;
 }
 
 .techStack {

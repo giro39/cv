@@ -5,7 +5,7 @@ export const projectsData = {
             name: "Bazuje.it",
             description: "Aplikacja pomagająca w wyborze kierunku studiów.",
             link: "https://github.com/giro39/bazuje.it/",
-            technologies: ["React", "JavaScript"],
+            technologies: ["React", "JavaScript", "SASS"],
             images: [
                 "/projects/bazuje/1.png",
                 "/projects/bazuje/2.png",
@@ -33,7 +33,7 @@ export const projectsData = {
             description:
                 "Aplikacja pomagająca w wyborze uczelni i kierunku studiów.",
             link: "https://github.com/giro39/bazuje.it/",
-            technologies: ["React", "JavaScript"],
+            technologies: ["React", "JavaScript", "SASS"],
             images: [
                 "/projects/bazuje/1.png",
                 "/projects/bazuje/2.png",

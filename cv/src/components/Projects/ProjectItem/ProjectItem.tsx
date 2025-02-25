@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+import Gallery from "../../Gallery/Gallery";
+
 import styles from "./ProjectItem.module.scss";
 
 interface ProjectProps {
@@ -46,6 +48,13 @@ const ProjectItem: React.FC<ProjectProps> = ({
                 className={styles.preview}
                 onClick={() => setIsGalleryOpen(true)}
             />
+
+            {isGalleryOpen && (
+                <Gallery
+                    images={images}
+                    onClose={() => setIsGalleryOpen(false)}
+                />
+            )}
         </div>
     );
 };
