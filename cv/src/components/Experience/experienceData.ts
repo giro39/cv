@@ -2,60 +2,55 @@ export const experienceData = {
     work: {
         en: [
             {
-                date: "Jan 2023 - Present",
-                title: "Digital Perspective",
-                position: "Frontend Web Developer",
-                description:
-                    "Web Design; Web Development; Wordpress + Elementor.",
-                logo: "logo_react.svg",
-            },
-            {
-                date: "Jan 2020 - Mar 2020",
-                title: "Bitcliq",
-                position: "Software Developer - Internship",
-                description:
-                    "Mobile Development; Web Development; Functional testing.",
-                logo: "logo_react.svg",
+                date: "November 2020 - December 2020",
+                title: "Logon SA",
+                position: "Internship - Mobile Application Developer",
+                description: "Description",
+                logo: "logonsa.png",
             },
         ],
         pl: [
             {
-                date: "Styczeń 2023 - Obecnie",
-                title: "Digital Perspective",
-                position: "Frontend Web Developer",
-                description:
-                    "Projektowanie stron; Tworzenie stron; Wordpress + Elementor.",
-                logo: "logo_react.svg",
-            },
-            {
-                date: "Styczeń 2020 - Marzec 2020",
-                title: "Bitcliq",
-                position: "Software Developer - Staż",
-                description:
-                    "Tworzenie aplikacji mobilnych i webowych; Testowanie oprogramowania.",
-                logo: "logo_react.svg",
+                date: "Listopad 2020 - Grudzień 2020",
+                title: "Logon SA",
+                position: "Praktyki - Programista aplikacji mobilnych",
+                description: "Opis",
+                logo: "logonsa.png",
             },
         ],
     },
     studies: {
         en: [
             {
-                date: "2017 - 2021",
-                title: "XYZ University",
-                position: "Bachelor's Degree in Computer Science",
-                description:
-                    "Focused on software development, databases, and web technologies.",
-                logo: "logo_react.svg",
+                date: "2022 - Present",
+                title: "Poznań University of Technology",
+                position: "Computer Science Student",
+                description: "Description.",
+                logo: "politechnika.jpg",
+            },
+            {
+                date: "2018 - 2022",
+                title: "Zespół Szkół Elektronicznych in Bydgoszcz",
+                position:
+                    "Technical School Student in the field of IT Technician",
+                description: "Description.",
+                logo: "zse.jpg",
             },
         ],
         pl: [
             {
-                date: "2017 - 2021",
-                title: "Uniwersytet XYZ",
-                position: "Licencjat z Informatyki",
-                description:
-                    "Specjalizacja: programowanie, bazy danych, technologie webowe.",
-                logo: "logo_react.svg",
+                date: "2022 - Obecnie",
+                title: "Politechnika Poznańska",
+                position: "Student Informatyki",
+                description: "Jakiś opis.",
+                logo: "politechnika.jpg",
+            },
+            {
+                date: "2018 - 2022",
+                title: "Zespół Szkół Elektronicznych w Bydgoszczy",
+                position: "Uczeń technikum na kierunku Technik Informatyk",
+                description: "Opis.",
+                logo: "zse.jpg",
             },
         ],
     },
