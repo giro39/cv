@@ -43,7 +43,7 @@ const TechStack = () => {
 
     return (
         <section className={styles.stack} aria-label="TechStack">
-            <h1 className={styles.stackTitle}>{t("my_tech_stack")}</h1>
+            <h2 className={styles.stackTitle}>{t("my_tech_stack")}</h2>
 
             <div className={styles.filters}>
                 <button
@@ -64,16 +64,20 @@ const TechStack = () => {
                 ))}
             </div>
             <div className={styles.technologies}>
-                <AnimatePresence mode="wait">
+                <AnimatePresence>
                     {filteredData.map((tech: TechnologyType) => (
                         <motion.div
                             key={tech.name}
                             initial={{ opacity: 0, x: 10 }}
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: -10 }}
-                            transition={{ duration: 0.1 }}
+                            transition={{ duration: 0.2 }}
                         >
-                            <Technology logo={tech.icon} name={tech.name} />
+                            <Technology
+                                key={tech.name}
+                                logo={tech.icon}
+                                name={tech.name}
+                            />
                         </motion.div>
                     ))}
                 </AnimatePresence>

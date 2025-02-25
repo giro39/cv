@@ -14,7 +14,7 @@ const Projects = () => {
 
     return (
         <section className={styles.projects}>
-            <h1 className={styles.title}>{t("projects")}</h1>
+            <h2 className={styles.title}>{t("projects")}</h2>
             <div className={styles.list}>
                 {data.map((project) => (
                     <ProjectItem key={project.id} {...project} />

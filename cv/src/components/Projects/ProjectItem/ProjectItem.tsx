@@ -27,7 +27,7 @@ const ProjectItem: React.FC<ProjectProps> = ({
             <div className={styles.information}>
                 <div className={styles.nameAndDescription}>
                     <a href={link} target="_blank" className={styles.nameLink}>
-                        <h2 className={styles.name}>{name}</h2>
+                        <h3 className={styles.name}>{name}</h3>
                         <FaExternalLinkAlt className={styles.linkIcon} />
                     </a>
                     <p className={styles.description}>{description}</p>

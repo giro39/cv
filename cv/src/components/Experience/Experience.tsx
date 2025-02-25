@@ -17,7 +17,7 @@ const Experience = () => {
 
     return (
         <section className={styles.experience}>
-            <h1 className={styles.title}>{t("experience")}</h1>
+            <h2 className={styles.title}>{t("experience")}</h2>
             <div className={styles.tabs}>
                 <button
                     className={activeTab === "studies" ? styles.active : ""}
@@ -33,13 +33,13 @@ const Experience = () => {
                 </button>
             </div>
             <div className={styles.experienceList}>
-                <AnimatePresence mode="wait">
+                <AnimatePresence>
                     <motion.div
                         key={activeTab}
                         initial={{ opacity: 0, x: 20 }}
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
-                        transition={{ duration: 0.1 }}
+                        transition={{ duration: 0.2 }}
                         className={styles.experienceContent}
                     >
                         {data.map((item, index) => (

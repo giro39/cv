@@ -12,13 +12,21 @@ function App() {
     return (
         <main>
             <Navbar />
-            <Home />
+            <section id="home">
+                <Home />
+            </section>
             <hr />
-            <TechStack />
+            <section id="techstack">
+                <TechStack />
+            </section>
             <hr />
-            <Experience />
+            <section id="experience">
+                <Experience />
+            </section>
             <hr />
-            <Projects />
+            <section id="projects">
+                <Projects />
+            </section>
             <div>Something</div>
             <div>Something</div>
             <div>Something</div>
