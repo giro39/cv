@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 import ExperienceItem from "./ExperienceItem/ExperienceItem";
 
@@ -33,20 +33,18 @@ const Experience = () => {
                 </button>
             </div>
             <div className={styles.experienceList}>
-                <AnimatePresence>
-                    <motion.div
-                        key={activeTab}
-                        initial={{ opacity: 0, x: 20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -20 }}
-                        transition={{ duration: 0.2 }}
-                        className={styles.experienceContent}
-                    >
-                        {data.map((item, index) => (
-                            <ExperienceItem key={index} {...item} />
-                        ))}
-                    </motion.div>
-                </AnimatePresence>
+                <motion.div
+                    key={activeTab}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -20 }}
+                    transition={{ duration: 0.2 }}
+                    className={styles.experienceContent}
+                >
+                    {data.map((item, index) => (
+                        <ExperienceItem key={index} {...item} />
+                    ))}
+                </motion.div>
             </div>
         </section>
     );

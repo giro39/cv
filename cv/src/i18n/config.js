@@ -22,6 +22,7 @@ i18n.use(initReactI18next).init({
                 all: "All",
                 Other: "Other",
                 Graphics: "Graphics",
+                Databases: "Databases",
                 Mobile: "Mobile",
                 tabs: {
                     studies: "Education",
@@ -46,6 +47,7 @@ i18n.use(initReactI18next).init({
                 all: "Wszystkie",
                 Other: "Inne",
                 Graphics: "Grafika komputerowa",
+                Databases: "Bazy danych",
                 Mobile: "Aplikacje mobilne",
                 tabs: {
                     studies: "Edukacja",
