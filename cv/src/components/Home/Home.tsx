@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./Home.module.scss";
 
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
     const { t } = useTranslation();
@@ -22,7 +22,7 @@ const Home = () => {
                     <p className={styles.whoami2}>{t("profession")}</p>
                     <div className={styles.links}>
                         <div className={styles.icon}>
-                            <a href="" target="_blank">
+                            <a href="cv.pdf" target="_blank">
                                 <b>CV</b>
                             </a>
                         </div>
@@ -32,11 +32,11 @@ const Home = () => {
                                 <FaGithub />
                             </div>
                         </a>
-                        <a href="https://github.com/giro39" target="_blank">
+                        {/* <a href="https://github.com/giro39" target="_blank">
                             <div className={styles.icon}>
                                 <FaLinkedin />
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

@@ -42,7 +42,8 @@ i18n.use(initReactI18next).init({
                 projects: "Projekty",
                 about: "O mnie",
                 current_profession: "Student 3. roku informatyki",
-                profession: "Programista full-stack uczący się DevOps i sieci",
+                profession:
+                    "Programista full-stack zainteresowany DevOps i sieciami",
                 my_tech_stack: "Technologie, z których korzystam",
                 all: "Wszystkie",
                 Other: "Inne",
@@ -54,7 +55,7 @@ i18n.use(initReactI18next).init({
                     work: "Praca",
                 },
                 about_comp: {
-                    title: "Zapraszam do kontaktu w sprawie współpracy lub zapytań.",
+                    title: "Zapraszam do kontaktu w sprawie współpracy lub dowolnej innej.",
                     contact: "Mój adres e-mail",
                 },
             },

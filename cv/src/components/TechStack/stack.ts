@@ -70,6 +70,16 @@ export default [
         categories: ["DevOps", "Other"],
     },
     {
+        name: "Figma",
+        icon: "techstack/figma.png",
+        categories: ["Frontend", "Graphics"],
+    },
+    {
+        name: "Docker",
+        icon: "techstack/docker.png",
+        categories: ["DevOps"],
+    },
+    {
         name: "Nginx",
         icon: "techstack/nginx.svg",
         categories: ["DevOps"],

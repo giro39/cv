@@ -39,13 +39,9 @@ export const projectsData = {
             name: "CV - Portfolio",
             description:
                 "A personal website showcasing the technologies I work with, my experience from both work and education, and the most important projects I've been a part of. It is hosted on a VPS server using Nginx.",
-            link: "https://github.com/Fiflon/General_knowledge_quiz_project",
+            link: "https://github.com/giro39/cv",
             technologies: ["React", "TypeScript", "Sass", "Nginx"],
-            images: [
-                "/projects/bazuje/2.png",
-                "/projects/bazuje/5.png",
-                "/projects/bazuje/3.png",
-            ],
+            images: ["/projects/cv/1.png", "/projects/cv/2.png"],
         },
         {
             id: 4,
@@ -53,11 +49,30 @@ export const projectsData = {
             description:
                 "A multiplayer quiz game where players can join a server, answer questions, and compete for the highest score. The server handles multiple clients, manages the game state, and ensures fair play. The client provides a user-friendly interface for players to connect to the server, answer questions, and view the leaderboard.",
             link: "https://github.com/Fiflon/General_knowledge_quiz_project",
-            technologies: ["Python", "C++"],
+            technologies: ["Python", "C++", "Socket programming"],
             images: [
-                "politechnika.jpg",
-                "/projects/gkq/2.png",
-                "/projects/gkq/3.png",
+                "/projects/gqp/1.png",
+                "/projects/gqp/2.png",
+                "/projects/gqp/3.png",
+            ],
+        },
+        {
+            id: 4,
+            name: "Polish Speedway Leagues",
+            description:
+                "A database application dedicated to the Polish speedway leagues. Available functionalities include viewing data and statistics of teams, riders, match information, as well as creating new seasons filled with teams, riders and their contracts, matches, referees and so on.",
+            link: "",
+            technologies: ["Oracle Apex", "Oracle SQL"],
+            images: [
+                "/projects/speedway_leagues/1.png",
+                "/projects/speedway_leagues/2.png",
+                "/projects/speedway_leagues/3.png",
+                "/projects/speedway_leagues/4.png",
+                "/projects/speedway_leagues/5.png",
+                "/projects/speedway_leagues/6.png",
+                "/projects/speedway_leagues/7.png",
+                "/projects/speedway_leagues/8.png",
+                "/projects/speedway_leagues/erd.png",
             ],
         },
     ],
@@ -103,11 +118,7 @@ export const projectsData = {
                 "Personalna strona internetowa zawierająca technologie, którymi się posługuję, moje doświadczenie zarówno zawodowe, jak i edukacyjne oraz najważniejsze z projektów przy których tworzeniu brałem udział. Jest postawiona na serwerze VPS przy użyciu Nginx.",
             link: "https://github.com/giro39/cv",
             technologies: ["React", "TypeScript", "Sass", "Nginx"],
-            images: [
-                "/projects/bazuje/2.png",
-                "/projects/bazuje/5.png",
-                "/projects/bazuje/3.png",
-            ],
+            images: ["/projects/cv/1.png", "/projects/cv/2.png"],
         },
         {
             id: 4,
@@ -115,11 +126,34 @@ export const projectsData = {
             description:
                 "Wieloosobowa gra typu quiz, w której gracze mogą dołączyć do serwera, odpowiadać na pytania i rywalizować o najwyższy wynik. Serwer obsługuje wielu graczy (klientów), zarządza stanem gry i zapewnia uczciwą rozgrywkę. Na projekt składa się też przejrzysta aplikacja klienta, dzięki któremu gracze mogą łączyć się z serwerem, odpowiadać na pytania i przeglądać tabelę wyników.",
             link: "https://github.com/Fiflon/General_knowledge_quiz_project",
-            technologies: ["Python", "C++"],
+            technologies: [
+                "Python",
+                "C++",
+                "Programowanie socketów sieciowych",
+            ],
             images: [
-                "politechnika.jpg",
-                "/projects/bazuje/2.png",
-                "/projects/bazuje/3.png",
+                "/projects/gqp/1.png",
+                "/projects/gqp/2.png",
+                "/projects/gqp/3.png",
+            ],
+        },
+        {
+            id: 4,
+            name: "Polskie Ligi Żużlowe",
+            description:
+                "Aplikacja bazodanowa poświęcona polskim ligom żużlowym. Dostępnymi funkcjonalnościami jest przeglądanie danych i statystyk zespołów, zawodników, informacji o meczach, a także tworzenie nowych sezonów wypełnionych zespołami, żużlowcami i ich kontraktami, sędziami, meczami.",
+            link: "",
+            technologies: ["Oracle Apex", "Oracle SQL"],
+            images: [
+                "/projects/speedway_leagues/1.png",
+                "/projects/speedway_leagues/2.png",
+                "/projects/speedway_leagues/3.png",
+                "/projects/speedway_leagues/4.png",
+                "/projects/speedway_leagues/5.png",
+                "/projects/speedway_leagues/6.png",
+                "/projects/speedway_leagues/7.png",
+                "/projects/speedway_leagues/8.png",
+                "/projects/speedway_leagues/erd.png",
             ],
         },
     ],

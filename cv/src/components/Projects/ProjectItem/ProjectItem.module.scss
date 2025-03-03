@@ -65,10 +65,11 @@
 @media only screen and (max-width: 60rem) {
     .project {
         display: block;
+        text-align: center;
     }
 
     .preview {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin-top: 1rem;
     }
