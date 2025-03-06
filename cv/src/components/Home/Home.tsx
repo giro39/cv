@@ -22,7 +22,7 @@ const Home = () => {
                     <p className={styles.whoami2}>{t("profession")}</p>
                     <div className={styles.links}>
                         <div className={styles.icon}>
-                            <a href="cv.pdf" target="_blank">
+                            <a href="CV_JanWysmolinski.pdf" target="_blank">
                                 <b>CV</b>
                             </a>
                         </div>
