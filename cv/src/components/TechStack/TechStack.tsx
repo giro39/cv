@@ -33,8 +33,8 @@ const TechStack = () => {
         a === "Other"
             ? 1
             : b === "Other"
-            ? -1
-            : categoryCounts[b] - categoryCounts[a] || a.localeCompare(b)
+                ? -1
+                : categoryCounts[b] - categoryCounts[a] || a.localeCompare(b)
     );
 
     const filteredData = selectedCategory

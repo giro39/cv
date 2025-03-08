@@ -84,6 +84,16 @@ export default [
         icon: "techstack/nginx.svg",
         categories: ["DevOps"],
     },
+    // {
+    //     name: "VMware ESXi",
+    //     icon: "techstack/esxi.png",
+    //     categories: ["DevOps"],
+    // },
+    {
+        name: "Networking",
+        icon: "techstack/networks.png",
+        categories: ["DevOps", "Other"],
+    },
     {
         name: "React Native",
         icon: "techstack/react_native.svg",
@@ -98,5 +108,10 @@ export default [
         name: "GIMP",
         icon: "techstack/gimp.png",
         categories: ["Graphics"],
+    },
+    {
+        name: "Microsoft Office",
+        icon: "techstack/office.png",
+        categories: ["Other"],
     },
 ];

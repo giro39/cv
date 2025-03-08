@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import styles from "./Technology.module.scss";
 
 interface TechnologyProps {
@@ -6,10 +8,11 @@ interface TechnologyProps {
 }
 
 const Technology: React.FC<TechnologyProps> = ({ logo, name }) => {
+    const { t } = useTranslation();
     return (
         <div className={styles.techContainer} aria-label="Single Technology">
             <img src={logo}></img>
-            <p>{name}</p>
+            <p>{t(name)}</p>
         </div>
     );
 };

@@ -24,6 +24,7 @@ i18n.use(initReactI18next).init({
                 Graphics: "Graphics",
                 Databases: "Databases",
                 Mobile: "Mobile",
+                Networking: "Network technologies and protocols",
                 tabs: {
                     studies: "Education",
                     work: "Work",
@@ -50,6 +51,7 @@ i18n.use(initReactI18next).init({
                 Graphics: "Grafika komputerowa",
                 Databases: "Bazy danych",
                 Mobile: "Aplikacje mobilne",
+                Networking: "Technologie sieciowe i protokoły",
                 tabs: {
                     studies: "Edukacja",
                     work: "Praca",
